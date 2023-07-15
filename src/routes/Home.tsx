@@ -1,4 +1,5 @@
 import Search from "../components/Search/Search";
+import User from "../components/User/User";
 import { useState } from "react";
 import { UserProps } from "../Types/user";
 
@@ -27,7 +28,7 @@ const Home = () => {
     return (
         <div>
             <Search loadUser={loadUser}/>
-            {user && <p>{user.login}</p>}
+            {user && <User {...user}/>}
         </div>
     )
     
