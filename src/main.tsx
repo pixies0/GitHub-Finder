@@ -1,11 +1,10 @@
 import React, { Children } from 'react'
 import ReactDOM from 'react-dom/client'
+import Home from "./routes/Home.tsx"
 import App from './App.tsx'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-import Home from "./routes/Home.tsx"
 
 const router = createBrowserRouter([
   {
