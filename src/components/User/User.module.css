@@ -7,61 +7,66 @@
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
-}
+  }
 
-.user img {
+  .user img {
     width: 140px;
     height: 140px;
     border: 4px solid #24b694;
     border-radius: 50%;
-}
+  }
 
-.location{
+  .location {
     display: flex;
     align-items: center;
     gap: 0.4rem;
-}
+  }
 
-.location svg {
+  .location svg {
     fill: #24b694;
     font-size: 1.5rem;
-}
+  }
 
-.location span {
+  .location span {
     color: #24b694;
     font-weight: bold;
-}
+  }
 
-.stats{
+  .stats {
     display: flex;
-}
+  }
 
-.stats div {
+  .stats div {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
-    gap: .4rem;
-}
+    gap: 0.4rem;
+  }
 
-.stats div:first-child{
+  .stats div:first-child {
     border-right: 1px solid #24b694;
-}
+  }
 
-.stats .number {
-    background-color:#24b694;
-    padding: .2rem .4rem;
+  .stats .number {
+    background-color: #24b694;
+    padding: 0.2rem 0.4rem;
     border-radius: 3px;
-}
+  }
 
-.user a{
+  .user a,
+  .user .view-repos-button {
     text-align: center;
     background-color: #001b17;
     padding: 1rem;
     border-radius: 5px;
-    opacity: .8;
-    transition: .3s;
-}
+    opacity: 0.8;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-.user a:hover{
-    opacity:1;
-}
+  .user a:hover,
+  .user .view-repos-button:hover {
+    opacity: 1;
+  }
